@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Calculator</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="Leandro Nascimento Castro">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <style>
+      #main{
+          max-width: 500px;
+          background-color: #FFF;
+      }
+      body{
+          margin: 5px;
+          background-color: rosybrown;
+      }
+  </style>
+</head>
+
+<body class="">
+
+  <div id="main" class="container-fluid">
+
+    <div id="head">
+        <h1>Faxina Calculator</h1>
+    </div>
+
+    <div id="body" class="container">
+        <div class="form-group row">
+            <div class="col-sm col-form-label">
+                <label for="dropdownId">Tipo Residência</label>
+            </div>
+            <div class="col-sm">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown button
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <div class="form-group row">
+            <div class="col-sm col-form-label">
+                <label for="nrCB">Casas de Banho</label>
+            </div>
+            <div class="col-sm">
+                <input type="number" id="nrCB" min="0" max="10">
+            </div>
+        </div>
+    </div>  
+
+    <div id="footer">
+
+    </div>      
+
+  </div>
+
+</body>
+</html>
